@@ -1,0 +1,23 @@
+.cabecalho__links {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    
+}
+.material-symbols-outlined {
+    font-size: 1.5em;
+}
+.cabecalho__links a {
+    display: flex;
+    align-items: center;
+    padding: 0.5em; 
+    gap: 0.1em;
+    font-size: 1.5em;
+    color: black;
+    border-bottom: 10px solid transparent;
+
+}
+.cabecalho__links a:hover {
+    border-bottom: 10px solid cornflowerblue;
+    
+}

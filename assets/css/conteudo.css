@@ -1,0 +1,221 @@
+.principais__games {
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "fortnit fortnit fortnit pubg"
+    "fortnit fortnit fortnit slack"
+    "app-dest jog-pop-lanc csgo zap"
+    ;
+    height: 80vh;
+}
+.principais__games--fortnite {
+    grid-area: fortnit;
+    background-image: url("../img/fortnite.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    
+
+}
+
+.principais__games--titulo {
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    padding: 1em;
+
+}
+
+.principais__games--pubg {
+    background-image: url("../img/pubg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.principais__games--slack {
+    background-image: url("../img/slack.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+.principais__games--csgo {
+    background-image: url("../img/cs-go.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+.principais__games--zap{
+    background-image: url("../img/whatsapp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.games__jog-pop-lanc, .games__app-dest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    gap: 0.5em;
+    
+}
+.games__jog-pop-lanc a, .games__app-dest a{
+    padding: 1em;
+    border: 2px solid rgb(194, 194, 194);
+    height: 100%;
+}
+
+.destaques {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+.destaques__itens div {
+    background-color: white;
+}
+.titulo-app-vermais {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    
+
+}
+.titulo-app-vermais a{
+    align-self: flex-end;
+    padding-bottom: 0.3em;
+}
+.titulo-app-vermais p {
+    margin: 0px;
+    padding-bottom: 0.3em;
+}
+
+.destaques__itens {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 0.5em;
+}
+.destaques__itens-img-slack {
+    background-image: url("../img/slack.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 130px;
+}
+.destaques__itens-img-zap {
+    background-image: url("../img/whatsapp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+.destaques__itens-img-telegran {
+    background-image: url("../img/telegram.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+
+.destaques__itens-img-trello {
+    background-image: url("../img/trello.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+.destaques__itens-img-skype {
+    background-image: url("../img/skype.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+.destaques__itens-titulo {
+    padding: 0.4em 0px 0.1em 0.2em;
+    font-size: 28px;
+}
+.destaques__itens-subtitulo {
+    padding-left: 0.5em;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(126, 126, 126);
+}
+.destaques__itens-texto {
+    padding: 0.2em;
+}
+
+.destaques__itens-img-braw-star {
+    background-image: url("../img/brawl-stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+.destaques__itens-img-Organizze {
+    background-image: url("../img/organizze.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+.destaques__itens-img-Onefootball {
+    background-image: url("../img/onefotball.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+.destaques__itens-img-Free {
+    background-image: url("../img/free-fire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+.destaques__itens-img-super-mario {
+    background-image: url("../img/mario-kart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
